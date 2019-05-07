@@ -11,13 +11,13 @@ public class InsertionSorter extends Sorter {
     public InsertionSorter(  ArrayList<String> usersData) {
         super(usersData);
     }
-    
+
 
     /**
       sort the user's data, implementing insertion sort
      */
     public void mySort() {
-        for (int index = 0; index < list.size(); index++) {
+        for (int index = 0; index < elements.size(); index++) {
      	 insert1(elements,index);
     	}
     }
